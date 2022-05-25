@@ -1,0 +1,68 @@
+.App {
+  display:flex;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+  }
+  .login{
+    display:flex;
+
+  }
+  
+  .lContainer {
+    display:flex;
+
+    flex-direction: row;
+    position: relative;
+    grid-template-columns: 1fr;
+    grid-template-rows:  88px;
+    justify-items: center;
+    align-items: center;
+    grid-template-rows: 100vh;
+    background-color: #f6f6f6;
+  }
+
+  .Card {
+    flex-direction: row;
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+      margin-top: -60px;
+      margin-left:-30px;
+      margin-right:-30px;
+      border-radius: 8px;
+      border: 1px solid #d8d8da;
+  }
+
+  .loginImage {
+    padding-left: -70px ;
+    padding-right: 90px;
+  }
+
+ .form-group {
+  flex-direction: row;
+
+   padding-right: 30px;
+ } 
+ .form-control {
+  margin:0 0 10px 0;
+}
+
+.btn {
+  margin:0 0 10px 0;
+  width: 300px;
+}
+
+
+.forgot-password a {
+  text-align: right;
+  padding-top: 50px;
+  color: #7f7d7d;
+  margin: 0;
+}
+.forgot-password a {
+  color: #B29324;
+}
